@@ -38,7 +38,6 @@ The following instructions will show you how to set up a Raspberry Pi 4 Model B 
 
 Note: If the FTDI cable is harnessed together, you may need to use the extra connector wires to reach the Pi pins.\
 ![Raspberry Pi Pinout](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
-![FTDI Cable](https://archive.fabacademy.org/2016/fablabesan2016/students/328/images/pasted%20image%20879x348.jpg)
 
 10. Check that the FTDI cable connection is showing up on your computer by checking the Device Manager. There should be a COMx listed under "Ports (COM & LPT)".
 11. Once you have found the connection, open PuTTY on your computer and select a Serial connection type. Change the "Speed" to 115200 and the "Serial line" to the COM port the FTDI cable was detected on. Click "Open".\
